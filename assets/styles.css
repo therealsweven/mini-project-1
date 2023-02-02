@@ -3,38 +3,50 @@
 }
 
 body {
-  background-color: aquamarine;
+  background-color: #39b5e0;
 }
 
 header {
-  background-color: rgb(255, 107, 107);
-  border: 5px solid yellow;
+  background-color: rgb(163, 26, 203);
+  border: 5px solid rgb(245, 234, 90);
   position: fixed;
   top: 0;
-  width: 100%;
+  right: 0;
+  width: 40%;
   text-align: center;
+}
+
+/* link-color {
+  
+} */
+li {
+  display: inline;
+  border: #39b5e0 solid 2px;
+  color: #39b5e0;
+  background-color: #000000;
+  list-style-type: none;
+  text-align: center;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .title {
   text-align: center;
-  margin-top: 150px;
-  background-color: purple;
-  padding: 10px;
+  font-size: 50px;
+  margin-top: 50px;
+  /* background-color: purple; */
+  padding: 5px;
+  width: 100%;
 }
 
 figure {
   height: 100%;
   width: 100%;
-  margin-top: 100px;
+  margin-top: 10px;
   text-align: center;
-}
-
-li {
-  display: inline;
-  list-style-type: none;
-  text-align: center;
-  padding: 20px;
-  font: 40px;
 }
 
 .container {
@@ -42,12 +54,14 @@ li {
   height: 600px;
   margin: 10px auto;
   border: 15px solid black;
+  text-align: center;
 }
 footer {
-  background-color: rgb(255, 107, 107);
-  border: 5px solid yellow;
+  background-color: rgb(163, 26, 203);
+  border: 5px solid rgb(245, 234, 90);
   text-align: center;
   padding: 20px;
+  margin-top: 150px;
 }
 
 #fcf-form {
